@@ -1,0 +1,5 @@
+pandas
+category_encoders
+scikit-learn
+Flask
+numpy

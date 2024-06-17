@@ -1,0 +1,16 @@
+            To create a docker-hub repo
+1.docker login 
+2.docker build -t <reponame/name> .
+3.docker run -p 5000:5000 <reponame/name>
+4.docker push <reponame/name>
+
+            To run the conatiner in other computer
+1.docker login
+2.docker pull <reponame/name>
+3.docker run -p 5000:5000 <reponame/name>
+
+
+
+remove: docker rm -f <reponame/name>
+stop: docker stop <reponame/name>
+rename:docker tah <repo/oldname> <repo/newname>
